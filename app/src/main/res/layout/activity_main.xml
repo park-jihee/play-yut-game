@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="윷 던지기"
-        android:textSize="50dp"
+        android:textSize="45dp"
+        android:textColor="#000"
         android:layout_gravity="center"
         android:layout_margin="50dp"/>
 
@@ -26,7 +27,8 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@drawable/yutimg"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -53,8 +55,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="설명"
+                android:text="설명보기"
                 android:textSize="30dp"
+                android:textColor="#000"
                 android:layout_gravity="center"/>
         </LinearLayout>
 </LinearLayout>

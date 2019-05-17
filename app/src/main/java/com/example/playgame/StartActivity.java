@@ -18,6 +18,8 @@ public class StartActivity extends AppCompatActivity {
     Random rd = new Random();
     int [] yutImg = {R.drawable.play2, R.drawable.play1};
     ImageView[] imgView = new ImageView[4];
+
+
     TextView result;
     Button gameStart;
 
@@ -37,8 +39,6 @@ public class StartActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(v.getId() == R.id.gameStart){
-                    for (int i = 0; i < 4; i++){
-                    }
                     setGameStart();
                 }
             }
